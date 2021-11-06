@@ -43,8 +43,8 @@ postsOlder:
 
 poweredBy:
   other: >-
-    Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme Modified <a
-    href='https://github.com/amouat/bitbucket-hugo-theme'>hugo-theme-mini</a>
+    Powered by <a href='http://www.gohugo.io/'>Hugo</a> and <a
+    href='https://github.com/amouat/bitbucket-hugo-theme'>hugo-theme-mini</a> (modified)
 
 publishDateShort:
   other: '{{ .PublishDate.Format "Jan 2" }}'
