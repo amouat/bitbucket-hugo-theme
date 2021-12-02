@@ -45,3 +45,7 @@
     <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
   {{ end }}
 {{ end }}
+
+{{ if .Params.canonical }} 
+<link rel="canonical" href="{{ .Params.canonical }}" />
+{{ end }}
