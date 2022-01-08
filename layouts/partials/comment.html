@@ -1,5 +1,5 @@
 {{ if or (and .Site.Params.enableComments (ne .Params.enableComments false)) (eq .Params.enableComments true) }}
-<h2>Comments and Reactions</h2>
+<h2>Comments</h2>
 To comment on this article, just <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&via=adrianmouat">tweet</a> including the URL of this page, or respond to an existing tweet. (For more on how this works see <a href="{{ref . "posts/webmentions.md"}}">enabling webmentions</a>).
 
 <div id="webmentions"/>

@@ -2,6 +2,7 @@
     margin: 0;
     position: relative;
     z-index: 100;
+    color: #777;
 }
 
 #webmentions .reacts img {
