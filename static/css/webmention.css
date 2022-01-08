@@ -4,24 +4,13 @@
     z-index: 100;
 }
 
-#webmentions .comments {
-    max-height: 20em;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-#webmentions h2 {
-    margin: 0;
-    padding: 2px;
-}
-
 #webmentions .reacts img {
     margin: 3px -1ex 1px 0;
 }
 
 #webmentions ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20;
     padding: 4px;
 }
 
@@ -49,8 +38,6 @@
     font-size: 50%;
 }
 
-
 #webmentions .comments li .name {
     color: #111;
 }
-
